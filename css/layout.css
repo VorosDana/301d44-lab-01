@@ -1,0 +1,30 @@
+body {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#content {
+  width: 100%;
+}
+
+nav {
+  height: 150px;
+  line-height: 1.5em;
+  text-indent: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    max-width: 960px;
+  }
+  nav {
+    float: left;
+    height: 600px;
+    width: 20.8333333%;
+  }
+  #content {
+    width: 79.1666665%;
+    float: right;
+  }
+}
