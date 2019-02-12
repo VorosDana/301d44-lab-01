@@ -1,16 +1,18 @@
 * {
   /* fonts */
+  box-sizing: border-box;
 }
 
 div, nav {
   background-color: rgb(162, 162, 189);
   /* technique from https://codepen.io/hadas_segal/pen/wxePMQ */
-  box-shadow: inset 0 0 0 1px rgb(139, 139, 187);
+  border: 1px solid rgb(139, 139, 187);
   color: black;
 }
 
 .float-clear {
   clear: both;
+  border: 0px;
 }
 
 div {

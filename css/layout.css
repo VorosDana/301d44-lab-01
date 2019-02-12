@@ -6,6 +6,7 @@ body {
 
 #content {
   width: 100%;
+  border: 0px;
 }
 
 nav {
