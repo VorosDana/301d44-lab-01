@@ -1,11 +1,11 @@
 body {
-  max-width: 480px;
-  width: 100%;
+  width: 480px;
   margin: 0 auto;
 }
 
 #content {
-  width: 100%;
+  /* width: 100%; */
+  border: 0px;
 }
 
 nav {
@@ -16,15 +16,17 @@ nav {
 
 @media screen and (min-width: 769px) {
   body {
-    max-width: 960px;
+    width: 960px;
   }
+
   nav {
     float: left;
     height: 600px;
-    width: 20.8333333%;
+    width: 200px;
   }
+
   #content {
-    width: 79.1666665%;
+    width: 760px;
     float: right;
   }
 }

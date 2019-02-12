@@ -1,5 +1,19 @@
+.float-clear {
+  clear: both;
+  border: 0px;
+  padding: 0px;
+}
+
 header div {
   height: 75px;
+}
+
+header div p {
+  padding-top: 27px;
+}
+
+nav p {
+  padding-top: 65px;
 }
 
 #content {
@@ -7,34 +21,56 @@ header div {
 }
 
 .chunk {
-  width: 100%;
+  width: 480px;
   height: 125px;
   float: left;
 }
 
+.chunk p {
+  padding-top: 52px
+}
+
 .bit {
   float: left;
-
-  width: 50%;
-
+  width: 240px;
   height: 250px;
+}
+
+.bit p {
+  padding-top: 115px;
 }
 
 #footer {
   height: 80px;
 }
 
+#footer p {
+  padding-top: 30px;
+}
+
 @media screen and (min-width: 769px) {
-
-
+  nav p {
+    padding-top: 290px;
+  }
+  
   .chunk {
     width: 50%;
     height: 200px;
   }
-  .bit {
-    width: 25%;
+
+  .chunk p {
+    padding-top: 90px;
   }
-  #footer{
+  
+  .bit {
+    width: 190px;
+  }
+
+  #footer {
     height: 150px;
+  }
+
+  #footer p {
+    padding-top: 65px;
   }
 }
